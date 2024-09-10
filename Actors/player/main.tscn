@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://s0gblgydrtro"]
+
+[ext_resource type="PackedScene" uid="uid://degq7advhnfcb" path="res://Actors/player/player.tscn" id="1_jvvbx"]
+[ext_resource type="PackedScene" uid="uid://bo8ch3e5ejdim" path="res://Actors/projectile/projectile.tscn" id="2_05flp"]
+
+[node name="Main" type="Node2D"]
+
+[node name="Player" parent="." instance=ExtResource("1_jvvbx")]
+position = Vector2(391, 192)
+projectile_scene = ExtResource("2_05flp")
